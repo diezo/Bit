@@ -4,28 +4,40 @@
 > [!NOTE]
 > This VCS tool is in development and not recommended for larger projects.
 
-## Indexing Items
-Here's how to index files & folders using **Bit**:
+## Staging Items
+Here's how to stage files & folders using **Bit**:
 
-### Add Items
+<details>
+<summary>Stage Items</summary>
+
 ```shell
 $ bit stage index.html
 ```
 
-### Remove Items
-Removing specific items from index:
+</details>
+
+<details>
+<summary>Unstage Items</summary>
+
+Unstaging specific items:
 ```shell
 $ bit unstage index.html
 ```
 
-Removing all indexed items:
+Unstaging all items:
 ```shell
 $ bit unstage *
 ```
 
-### List Indexed Items
+</details>
+
+<details>
+<summary>List Staged Items</summary>
+
 To get a list of indexed items:
 
 ```shell
 $ bit staged
 ```
+
+</details>
