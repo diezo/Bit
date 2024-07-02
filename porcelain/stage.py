@@ -5,7 +5,7 @@ import os
 
 def stage(items: list[str]) -> None:
     """
-    Command to index specified files.
+    Command to index specified items.
     """
     
     # Validate Items

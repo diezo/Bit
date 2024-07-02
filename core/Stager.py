@@ -123,6 +123,7 @@ class Stager:
 
         # Append Objects Info
         for object in self.objects:
+            print(".")
             content += f"{object.object_type}/{object.content_hash}/{b64encode(object.file_path.encode('utf-8')).decode('utf-8')}\n"
         
         return content.strip()
